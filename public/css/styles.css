@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniLight.otf') format('opentype');
+    font-weight: 300;
+    /* Light */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniRegular.otf') format('opentype');
+    font-weight: 400;
+    /* Normal */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniMedium.otf') format('opentype');
+    font-weight: 500;
+    /* Medium */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniBold.otf') format('opentype');
+    font-weight: 700;
+    /* Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniUBold.otf') format('opentype');
+    font-weight: 800;
+    /* Ultra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniBlack.otf') format('opentype');
+    font-weight: 900;
+    /* Black */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ploni';
+    src: url('/public/fonts/ploni/PloniULight.otf') format('opentype');
+    font-weight: 200;
+    /* Ultra Light */
+    font-style: normal;
+}
+
+* {
+    font-family: 'Ploni', 'sans-serif' !important;
+}
+
+.custom_shadow {
+    box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.15);
+}
